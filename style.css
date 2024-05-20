@@ -1,0 +1,91 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(255, 166, 0, 0.49), rgba(0, 0, 255, 0.403), rgba(255, 0, 0, 0.408)), url('photos/background.jpg');
+    color:black;
+    position: relative;
+}
+.header {
+    background-color: floralwhite;
+    color:black ;
+    width: 50%;
+    margin: 10px auto 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(245, 227, 227);
+    position: relative;
+    border-radius: 10px;
+}
+.container {
+    background-color:floralwhite;
+    width: 50%;
+    height:65%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(245, 227, 227);
+}
+.newtodo {
+    margin-top: 20px;
+}
+.newtodo input {
+    height: 20px;
+    width: 300px;
+}
+.newButton {
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: green;
+    color: white;
+    opacity: 80%;
+    cursor: pointer;
+}
+.addButton {
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: green;
+    color: white;
+    opacity: 80%;
+    cursor: pointer;
+}
+.deleteButton {
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: red;
+    color: white;
+    opacity: 80%;
+    cursor: pointer;
+}
+address {
+    color: white;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+}
+
+.mytodos {
+    margin-top:30px;
+}
