@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(255, 166, 0, 0.49), rgba(0, 0, 255, 0.403), rgba(255, 0, 0, 0.408)), url('photos/background.jpg');
+    color:black;
+    position: relative;
+}
+.header {
+    background-color: floralwhite;
+    color:rgba(0, 0, 0, 0.89) ;
+    width: 50%;
+    margin: 10px auto 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgb(245, 227, 227);
+    position: relative;
+    border-radius: 10px;
+    font-family: "Gochi Hand", cursive;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.container {
+    background-color:floralwhite;
+    width: 50%;
+    height:65%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(245, 227, 227);
+}
+.newtodo {
+    margin-top: 20px;
+}
+.newtodo input {
+    height: 20px;
+    width: 250px;
+    border-radius: 3px;
+    border:1px solid black;
+    font-size: 13px;
+}
+.newtodo input:hover {
+    border: 3px solid rgb(153, 153, 145);
+    background-color: beige;
+    cursor: pointer;
+}
+.fa-plus {
+    margin-top: 15px;
+    margin-left: 0px;
+    padding: 4px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(2, 167, 2);
+    color: white;
+    font-size: 15px;
+    opacity: 80%;
+    cursor: pointer;
+}
+.fa-plus:hover {
+    background-color: green;
+    box-shadow: 1px 1px 5px black;
+}
+address {
+    color: white;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+}
+
+.mytodos {
+    margin-top:30px;
+    font-family: "Patrick Hand", cursive;
+}
