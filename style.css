@@ -9,7 +9,6 @@ body, html {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    justify-content: center;
     align-items: center;
     background-position: center;
     background-size: cover;
@@ -21,7 +20,7 @@ body, html {
     background-color: floralwhite;
     color:rgba(0, 0, 0, 0.89) ;
     width: 50%;
-    margin: 10px auto 0;
+    margin: 40px auto 0;
     text-align: center;
     box-shadow: 0 2px 4px rgb(245, 227, 227);
     position: relative;
@@ -34,7 +33,7 @@ body, html {
 .container {
     background-color:floralwhite;
     width: 50%;
-    height:65%;
+    height:55%;
     text-align: center;
     box-sizing: border-box;
     margin-top: 40px;
@@ -64,7 +63,7 @@ body, html {
     padding: 4px 10px;
     border-radius: 5px;
     border: none;
-    background-color: rgb(232, 9, 9);
+    background-color: rgb(3, 155, 3);
     color: white;
     font-size: 15px;
     opacity: 80%;
@@ -79,10 +78,10 @@ address {
     bottom: 0;
     right: 0;
     margin: 0;
+    margin-bottom: 20px;
     padding: 20px;
     position: absolute;
 }
-
 .mytodos {
     margin-top:30px;
     font-family: "Patrick Hand", cursive;
